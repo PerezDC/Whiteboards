@@ -11,20 +11,28 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TimeFunctionTest", "TimeFun
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TimeFunction", "TimeFunction\TimeFunction.csproj", "{AB7F30F5-B2FB-4660-B467-292551331328}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Geometry", "Geometry\Geometry.csproj", "{31B1F26E-854D-460F-86FC-8B6202B38CE0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Geometry", "Geometry\Geometry.csproj", "{31B1F26E-854D-460F-86FC-8B6202B38CE0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeometryTest", "GeometryTest\GeometryTest.csproj", "{C694843C-ADBE-4579-89A7-BA622C086746}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GeometryTest", "GeometryTest\GeometryTest.csproj", "{C694843C-ADBE-4579-89A7-BA622C086746}"
 	ProjectSection(ProjectDependencies) = postProject
 		{31B1F26E-854D-460F-86FC-8B6202B38CE0} = {31B1F26E-854D-460F-86FC-8B6202B38CE0}
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Circles", "Circles\Circles.csproj", "{C57B6286-0EFE-44A5-864E-C8B9BE02877D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Circles", "Circles\Circles.csproj", "{C57B6286-0EFE-44A5-864E-C8B9BE02877D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CirclesTest", "CirclesTest\CirclesTest.csproj", "{10561919-637B-4F7F-B786-E54EF14C562F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CirclesTest", "CirclesTest\CirclesTest.csproj", "{10561919-637B-4F7F-B786-E54EF14C562F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrimeNumber", "PrimeNumber\PrimeNumber.csproj", "{FCF9E9F9-5CFA-4E34-A0F6-AEC70DB70DF8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrimeNumber", "PrimeNumber\PrimeNumber.csproj", "{FCF9E9F9-5CFA-4E34-A0F6-AEC70DB70DF8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrimeNumberTest", "PrimeNumberTest\PrimeNumberTest.csproj", "{3762BCAF-3F7D-40ED-BD6C-34C97A6606FE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrimeNumberTest", "PrimeNumberTest\PrimeNumberTest.csproj", "{3762BCAF-3F7D-40ED-BD6C-34C97A6606FE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Arrays", "Arrays\Arrays.csproj", "{243F3598-EF9C-47A9-9873-DF47550FBA3B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArraysWhiteboard", "arraysWhiteboard\ArraysWhiteboard.csproj", "{613351F7-A5E4-418D-B733-2BA70438D2BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CountDistinctElements", "CountDistinctElements\CountDistinctElements.csproj", "{5F246B2F-C054-46E3-9C36-E80F9E1FEDB9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CountDistinctElementsTest", "CountDistinctElementsTest\CountDistinctElementsTest.csproj", "{CCDC65EA-8AC4-4883-903F-26D8E5502437}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -72,6 +80,22 @@ Global
 		{3762BCAF-3F7D-40ED-BD6C-34C97A6606FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3762BCAF-3F7D-40ED-BD6C-34C97A6606FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3762BCAF-3F7D-40ED-BD6C-34C97A6606FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{243F3598-EF9C-47A9-9873-DF47550FBA3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{243F3598-EF9C-47A9-9873-DF47550FBA3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{243F3598-EF9C-47A9-9873-DF47550FBA3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{243F3598-EF9C-47A9-9873-DF47550FBA3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{613351F7-A5E4-418D-B733-2BA70438D2BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{613351F7-A5E4-418D-B733-2BA70438D2BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{613351F7-A5E4-418D-B733-2BA70438D2BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{613351F7-A5E4-418D-B733-2BA70438D2BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F246B2F-C054-46E3-9C36-E80F9E1FEDB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F246B2F-C054-46E3-9C36-E80F9E1FEDB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F246B2F-C054-46E3-9C36-E80F9E1FEDB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F246B2F-C054-46E3-9C36-E80F9E1FEDB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCDC65EA-8AC4-4883-903F-26D8E5502437}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCDC65EA-8AC4-4883-903F-26D8E5502437}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCDC65EA-8AC4-4883-903F-26D8E5502437}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCDC65EA-8AC4-4883-903F-26D8E5502437}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
